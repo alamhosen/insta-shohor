@@ -79,12 +79,20 @@
         </main>
         <!-- Question and answer -->
         <section class="main container mx-auto p-3">
-            <h3>Question: How does javaScript work?</h3>
-            <p><strong>Answer: </strong>We know that JavaScript is a client-side scripting language. If we want to run JavaScript program we should remember that client's web-browser needs to support JavaScript. For example, chrome browser runs JavaScript programs by "V8" JavaScript engine. Since JavaScript is an interpreted language so it’s executed line by line manner. When we run JavaScript programs in web browser the web browser’s JavaScript engine follow the four steps to successfully run the JavaScript program. </p>
+            <h2 class="text-center">Question and Answer:</h2>
+            <div>
+                <h3>How does javaScript work?</h3>
+            <p>We know that JavaScript is a client-side scripting language. If we want to run JavaScript program we should remember that client's web-browser needs to support JavaScript. For example, chrome browser runs JavaScript programs by "V8" JavaScript engine. Since JavaScript is an interpreted language so it’s executed line by line manner. When we run JavaScript programs in web browser the web browser’s JavaScript engine follow the four steps to successfully run the JavaScript program. </p>
             <p><strong>Parser: </strong>Firstly, JavaScript code received by "parser" inside the JS engine and check the code line by line for syntactic errors. If it’s found any error it stops the JavaScript code.</p>
             <p><strong>AST: </strong>In second step the JavaScript engine create data structure called Abstract Syntax Tree (AST).</p>
             <p><strong>Conversion to Machine code: </strong>Here the JavaScript engine converts JavaScript code to the machine code so that the machine can understand the code. </p>
             <p><strong>Machine code: </strong>In this last step the converted code is sent to the engine for execution and the byte code run by the engine.</p>
+            </div>
+
+            <div>
+                <h3>Different Between Local Storage and Session Storage</h3>
+                <p>Local storage capacity is 5MB/10MB and Session storage capacity is 5MB. Local storage is not session based but Session storage is session-based. If we close the browser or turn off the computer local storage data will not delete. But if we close the browser, tab, or turn off the computer session storage data will be deleted. If we want to delete local storage data, we need to delete it via JavaScript or manually. Local storage and session storage data don’t transfer to the server.</p>
+            </div>
         </section>
         <footer></footer>
 
